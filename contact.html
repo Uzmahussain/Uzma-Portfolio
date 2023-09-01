@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.js">
+    <title>Contact Us</title>
+    <style>
+        .contact_container {
+            padding: 1em;     
+            background-color: white;
+        }
+
+        .contact_form {
+            margin-left: 50px;
+            padding-top: 15px;
+
+        }
+
+        label {
+            color: #54008B;
+            font-size: 15px;
+            letter-spacing: .5px;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        input {
+            height: 40px;
+            width: 50%;
+            border: 1px solid #979797;
+            margin-top: 5px;
+            font-size: 16px;
+            font-family: "gotham_bookregular", Helvetica, Arial, sans-serif;
+            color: #333;
+            padding-left: 10px;
+        }
+
+        textarea {
+           
+            border: 1px solid #979797;
+            margin-top: 5px;
+            font-weight: normal;
+            color: #333;
+        }
+
+        .submit_btn button {
+            width: 130px;
+            padding: 10px;
+            background-color: #00703C;
+            color: white;
+            font-size: large;
+            cursor: pointer;
+            border: none;
+            border-radius: 7px;
+            letter-spacing: 1px;
+        }
+
+         .submit_btn button:hover{
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
+            transition: all .5s ease;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main class="container">
+
+        <section class="main-header1">
+            <nav class="navigation-container">
+
+                <div class="logo">
+                    <img src="images/wimbledon-logo-png-transparent-tennis-new-latest.png" alt="" width="67px">
+                </div>
+
+
+                <div class="navigation-items">
+                    <ul>
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="index.html">News</a></li>
+                        <li><a href="index.html">Tickets</a></li>
+                        <li><a href="index.html">Championships</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="side-bar" onclick=openbar()>
+
+                    <i class="fa-solid fa-bars text-light"></i>
+
+                </div>
+
+            </nav>
+            <div class="side_nav" id="openid">
+
+                <div class="close" id="closetag" onclick="closebar()">
+                    <h1>
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </h1>
+                </div>
+
+                <div class="sidenavbar_links">
+                    <a href="">Home </a>
+                    <a href="">About Us</a>
+                    <a href="">News</a>
+                    <a href="">Tickets</a>
+                    <a href="">Championships</a>
+                    <a href="">Contact</a>
+                </div>
+
+            </div>
+            <!-- NAVIGATION SECTION END -->
+
+            <div class="contact_container">
+                <div class="contact_form">
+                    <form action="">
+
+                        <label for="">Full Name*</label><br>
+                        <input type="text" placeholder="Full Name"><br><br>
+
+                        <label for="">Email Address*</label><br>
+                        <input type="text" placeholder="Email Address"> <br><br>
+
+                        <label for="">Telephone Number*</label><br>
+                        <input type="number" placeholder="Telephone Number"> <br><br>
+
+                        <label for="">Date Of Visit*</label><br>
+                        <input type="date"> <br> <br>
+
+                        <label for="">Message*</label> <br>
+                        <textarea name="" id="" cols="35" rows="5"></textarea> <br><br>
+
+                        <div class="submit_btn">
+                            <button>Submit</button>
+                        </div>
+                    </form>
+                </div>
+          
+            </div>
+        </section>
+
+
+        <section class="footer-container">
+            <div class="footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4 class="heading">Quick Links</h4>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">News</a></li>
+                            <li><a href="">Tickets</a></li>
+                            <li><a href="">Championships</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="heading">Privacy</h4>
+                        <ul>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Cookie Policy</a></li>
+                            <li><a href="">Tax Strategy</a></li>
+                            <li><a href="">Year round Conditions of Entry</a></li>
+                            <li><a href="">Acceptable Use Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="heading">Newsletter</h4>
+                        <input type="text" placeholder="Your Email Address"><br>
+                        <button class="newsletter_btn">Subscribe Now</button>
+                    </div>
+
+                    <div class="footer-col1">
+                        <h4 class="heading">Follow Us</h4>
+                        <div class="social-links">
+
+                            <div class="icons">
+
+                                <div class="facebook"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+                                <div class="twitter"> <a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                                <div class="instagram"> <a href=""> <i class="fa-brands fa-instagram"></i></a></div>
+                                <div class="link"><a href=""><i class="fa-brands fa-youtube"></i></a></div>
+                                <div class="link"><a href=""><i class="fa-brands fa-weixin"></i></a></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+        </section>
+
+    </main>
+
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>

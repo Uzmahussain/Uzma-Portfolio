@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="arrow_btn">
+        <a href="#"><span class="fas fa-arrow-up"></span></a>
+    </div>
+    <main class="container">
+
+        <section class="main-header">
+            <nav class="navigation-container" id="top_btn">
+
+                <div class="logo">
+                    <img src="images/wimbledon-logo-png-transparent-tennis-new-latest.png" alt="" width="67px">
+                </div>
+
+
+                <div class="navigation-items">
+                    <ul>
+                        <li><a href="index.html">Home </a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#ticket">Tickets</a></li>
+                        <li><a href="#Championship">Championships</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="side-bar" onclick=openbar()>
+
+                    <i class="fa-solid fa-bars text-light"></i>
+
+                </div>
+
+            </nav>
+            <div class="side_nav" id="openid">
+
+                <div class="close" id="closetag" onclick="closebar()">
+                    <h1>
+                        <i class="fa-regular fa-circle-xmark"></i>
+                    </h1>
+                </div>
+
+                <div class="sidenavbar_links">
+                    <a href="">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#">News</a>
+                    <a href="#ticket">Tickets</a>
+                    <a href="#Championship">Championships</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+
+            </div>
+
+            <div class="text_content">
+
+                <div class="text_section">
+                    <h1>Wimbledon Championships <strong>2023</strong></h1>
+                    <p>There is nothing like playing at Wimbledon, you can feel the footprints of the legends of the
+                        game-men and women-that have graced those courts.</p>
+                    <button class="landing_btn">Read More</button>
+                </div>
+
+                <div class="img_1">
+                    <img src="images/79bc00_c26fea7da26f4d6d9e7bb245557e530d~mv2.png" alt="">
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+
+        <!-- about section  -->
+
+        <section class="about_container" id="about">
+
+            <img class="about_img" src="images/header image 12.jpg" alt="">
+            <div class="text">
+
+                <h1 class="about_heading">About Wimbledon Championships</h1>
+                <p class="about_para">
+                    The Championships, commonly known simply as Wimbledon, it is the oldest tennis tournament in the
+                    world
+                    and is widely regarded as the most prestigious.It has been held at the All England Club
+                    in Wimbledon, London, since 1877 and is played on outdoor grass courts, with retractable roofs over
+                    the
+                    two main courts since 2019. Wimbledon is one of the four Grand Slam tennis tournaments, the others
+                    being
+                    the Australian Open, the
+                    French Open, and the US Open. Wimbledon is the only major still played on grass, the traditional
+                    tennis
+                    playing surface.
+                    now continue until 11.00 pm under the lights.
+                    <br> <br>
+                    The 2023 Wimbledon Championships will be the 136th staging and will run from 3 July 2023 to 16 July
+                    2023
+                    and it will be the first event of King Charles III since the death of the former patron, Queen
+                    Elizabeth
+                    II, on 8 September 2022.
+                </p>
+                <button class="about_btn">Know More</button>
+            </div>
+
+        </section>
+
+        <!-- ticket section  -->
+
+        <section class="ticket_container" id="ticket">
+            <div class="ticket_content">
+                <div class="ticket_gird">
+                    <img src="images/ticket 2 jpeg.jpg" alt="" width="100%">
+                    <h1>Fan Pit</h1>
+                    <h3>$500.00</h3>
+                    <button class="ticket_btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="ticket_content">
+                <div class="ticket_gird">
+                    <img src="images/ticket 1 jpeg.jpg" alt="" width="100%">
+                    <h1>Vip</h1>
+                    <h3>$200.00</h3>
+                    <button class="ticket_btn">Book Now</button>
+                </div>
+            </div>
+
+            <div class="ticket_content">
+                <div class="ticket_gird">
+                    <img src="images/ticket 3 jpg.jpg" alt="" width="100%">
+                    <h1>General</h1>
+                    <h3>$80.00</h3>
+                    <button class="ticket_btn">Book Now</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- table section  -->
+
+        <section class="table_container">
+
+            <h1 class="prize_heading">Prize Money For Wimbledon 2023</h1>
+
+            <div class="prize_table">
+                <table>
+                    <tr class="row_heading">
+                        <th class="prize_row">Round</th>
+                        <th class="prize_row">ATP Points</th>
+                        <th class="prize_row">WTA Points</th>
+                        <th class="prize_row">Prize Money</th>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">Winner</td>
+                        <td>2000</td>
+                        <td>2000</td>
+                        <td>£2,350,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">Finalist</td>
+                        <td>1,200</td>
+                        <td>1,300</td>
+                        <td>£1,175,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">Semi-finalists</td>
+                        <td>720</td>
+                        <td>780</td>
+                        <td>£600,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">Quarter-finalists</td>
+                        <td>360</td>
+                        <td>430</td>
+                        <td>£340,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">4th round</td>
+                        <td>180</td>
+                        <td>240</td>
+                        <td>£207,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">3rd round</td>
+                        <td>90</td>
+                        <td>130</td>
+                        <td>£131,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">2nd round</td>
+                        <td>45</td>
+                        <td>70</td>
+                        <td>£85,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">1st round</td>
+                        <td>10</td>
+                        <td>10</td>
+                        <td>£55,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">R3 Qualifying</td>
+                        <td>16</td>
+                        <td>30</td>
+                        <td>£36,000</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">R2 Qualifying</td>
+                        <td>8</td>
+                        <td>20</td>
+                        <td>£21,750</td>
+                    </tr>
+
+                    <tr>
+                        <td class="prize_col">R1 Qualifying</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>£12,750</td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+
+        <!-- gallery section  -->
+
+        <h1 class="champ_heading">Championships</h1>
+
+        <section class="gallery-container" id="Championship">
+            <div class="image-gallery">
+
+                <div class="gal-item"><img src="images/Untitled-5 wc.png" alt="gallery">
+                </div>
+
+                <div class="gal-item"><img src="images/Untitled-2 wc.png" alt="gallery">
+                </div>
+                <div class="gal-item"><img
+                        src="images/Untitled-3 wc.png" alt="gallery">
+                </div>
+                <div class="gal-item"><img src="images/Untitled-1 wc.png"
+                        alt="gallery"></div>
+                <div class="gal-item"><img src="images/Untitled-6.png" alt="gallery">
+                </div>
+                <div class="gal-item"><img src="images/Untitled-4-1.png" alt="gallery">
+                </div>
+                <div class="gal-item"><img src="images/519420-scaled.jpg" alt="gallery">
+                </div>
+                <div class="gal-item"><img src="images/Untitled-7 wc.png" alt="gallery">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- footer section  -->
+
+        <section class="footer-container">
+            <div class="footer">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4 class="heading">Quick Links</h4>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">News</a></li>
+                            <li><a href="">Tickets</a></li>
+                            <li><a href="">Championships</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="heading">Privacy</h4>
+                        <ul>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Cookie Policy</a></li>
+                            <li><a href="">Tax Strategy</a></li>
+                            <li><a href="">Year round Conditions of Entry</a></li>
+                            <li><a href="">Acceptable Use Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="heading">Newsletter</h4>
+                        <input type="text" placeholder="Your Email Address"><br>
+                        <button class="newsletter_btn">Subscribe Now</button>
+                    </div>
+
+                    <div class="footer-col1">
+                        <h4 class="heading">Follow Us</h4>
+                        <div class="social-links">
+
+                            <div class="icons">
+
+                                <div class="facebook"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+                                <div class="twitter"> <a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                                <div class="instagram"> <a href=""> <i class="fa-brands fa-instagram"></i></a></div>
+                                <div class="link"><a href=""><i class="fa-brands fa-youtube"></i></a></div>
+                                <div class="link"><a href=""><i class="fa-brands fa-weixin"></i></a></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+        </section>
+
+    </main>
+
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
